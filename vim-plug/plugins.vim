@@ -40,5 +40,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     " Plug 'nvim-lua/completion-nvim'
-
+    " git
+    Plug 'tpope/vim-fugitive'
+    Plug 'vim-airline/vim-airline' 
+    " themes
+    " Plug 'morhetz/gruvbox'
+    Plug 'joshdick/onedark.vim'
+    " Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
+    " Plug 'sonph/onehalf', {'rtp': 'vim/'}
+    Plug 'tpope/vim-surround'
 call plug#end()
